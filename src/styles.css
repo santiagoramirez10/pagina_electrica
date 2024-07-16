@@ -4,18 +4,18 @@
 }
 
 body {
-  background-color: #F1FAEE;
+  background-color: #E8E8E8;
 }
 
 a {
   text-decoration: none;
-  color: #1D3557;
+  color: #016938;
 }
 
 p {
   font-size: 18px;
   text-align: justify;
-  color: #1D3557;
+  color: #000;
 
 }
 
@@ -23,14 +23,15 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
-  color: #1D3557;
+  color: #016938;
 }
 
 h2 {
   font-size: 30px;
   font-weight: bold;
-  text-align: center;
-  color: #1D3557;
+  text-align: left;
+  color: #016938;
+  margin-top: 20px;
 }
 
 h3 {
@@ -65,7 +66,7 @@ ul {
 
 li {
   font-size: 17px;
-  color: #1D3557;
+  color: #000;
 
 }
 
