@@ -1,0 +1,106 @@
+header {
+  background-color: #379B37;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  margin: 0;
+  border-bottom: inset #016766;
+}
+
+header a {
+  color: #E8E8E8;
+  font-weight: bold;
+  padding: 5px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+header a:hover {
+  background-color: #3FAA70;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 12.5px 5%;
+  min-width: 240px;
+  text-align: center;
+}
+
+#nav-check {
+  display: none;
+}
+
+.nav-toggle {
+  color: #F1FAEE;
+  background: none;
+  border: none;
+  display: none;
+  height: 20px;
+}
+
+.nav-menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+  align-items: center;
+  margin: 12.5px;
+}
+
+.nav-menu-item {
+  font-size: 20px;
+  margin: 0 10px;
+  width: max-content;
+}
+
+@media (max-width: 1280px) {
+  .nav-toggle {
+      display: block;
+      position: absolute;
+      right: 25px;
+      top: 25px;
+  }
+
+  .nav-toggle label span {
+      display: block;
+      width: 30px;
+      height: 10px;
+      border-top: 3px solid #F1FAEE;
+      cursor: pointer;
+      transition: 1s !important;
+  }
+  #nav-check:checked~.nav-menu {
+      top: 70px;
+      transition: 1.5s;
+  }
+  #nav-check:checked~.nav-toggle span{
+      border-top: 3px solid #1D3557;
+  }
+  .nav-menu {
+      flex-direction: column;
+      background-color: #379B37;
+      position: fixed;
+      top: 70px;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 0;
+      top: -300px;
+      transition: 2s;
+  }
+
+  .nav-menu-item {
+      width: 100%;
+      text-align: center;
+      margin: 1.5% 0%;
+  }
+}

@@ -1,1 +1,170 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Lato";
+  src: url(https://fonts.googleapis.com/css2?family=Lato);
+}
+
+body {
+  background-color: #F1FAEE;
+}
+
+a {
+  text-decoration: none;
+  color: #1D3557;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+  color: #1D3557;
+
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #1D3557;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #1D3557;
+}
+
+h3 {
+
+  font-size: 24px;
+  text-align: center;
+  color: #1D3557;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  color: #1D3557;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: bold !important;
+  color: #1D3557 !important;
+}
+
+h6 {
+  font-size: 16px !important;
+  color: #1D3557 !important;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 17px;
+  color: #1D3557;
+
+}
+
+table {
+  font-size: 17px;
+  margin: auto;
+}
+
+th {
+  text-align: left;
+  color: #1D3557;
+  border: solid #457B9D;
+  padding: 5px;
+}
+
+td {
+  text-align: left;
+  border: solid #457B9D;
+  padding: 5px;
+}
+textarea{
+  width: 100%;
+  background-color: #A8DADC;
+  color: #1D3557;
+  font-size: 18px;
+  border: solid 2.5px #1D3557;
+  border-radius: 10px;
+}
+
+.container {
+  margin-top: 90px;
+  max-width: 1080px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+pre {
+  background-color: #A8DADC;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+.pre-console {
+  background-color: #1D3557;
+  color: #A8DADC;
+}
+
+/*Blogs*/
+.tutorial-title {
+  display: flex;
+  align-items: center;
+}
+
+.tutorial-title img {
+  width: 50px;
+}
+
+.tutorial-description {
+  margin: 0 5px;
+}
+
+label{
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  color: #1D3557;
+}
+.assembly{
+  width: 100%;
+  }
+
+
+  .project-title{
+    text-align: left;
+    font-weight: bold;
+  }
+
+.view-code{
+  width: 150px;
+  background-color: #F1FAEE;
+  border-radius: 20px;
+  border: solid 2px #5C6BBE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #5C6BBE;
+}
+.view-code:hover{
+  border: solid 2px #F1FAEE;
+  background-color: #5C6BBE;
+  color: #F1FAEE;
+}
+.view-code img{
+  width: 25px;
+  height: 25px;
+}
