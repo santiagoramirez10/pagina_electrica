@@ -11,6 +11,8 @@ import { ComputingComponent } from './pages/computing/computing.component';
 import { MethodsComponent } from './pages/methods/methods.component';
 import { HotbedComponent } from './pages/hotbed/hotbed.component';
 import { ComputerComponent } from './pages/computer/computer.component';
+import { IntroductionCourseComponent } from './classes/computer/introduction-course/introduction-course.component';
+import { IntroductionPythonComponent } from './classes/computer/introduction-python/introduction-python.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ComputerComponent } from './pages/computer/computer.component';
     ComputingComponent,
     MethodsComponent,
     HotbedComponent,
-    ComputerComponent
+    ComputerComponent,
+    IntroductionCourseComponent,
+    IntroductionPythonComponent
   ],
   imports: [
     BrowserModule, routing, FormsModule
