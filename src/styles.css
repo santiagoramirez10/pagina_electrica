@@ -65,8 +65,9 @@ ul {
 }
 
 li {
-  font-size: 17px;
+  font-size: 18px;
   color: #000;
+  margin-left: 10px;
 
 }
 
@@ -168,4 +169,16 @@ label{
 .view-code img{
   width: 25px;
   height: 25px;
+}
+
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.column {
+  flex: 1;
+  min-width: 300px;
+  margin: 10px;
 }
