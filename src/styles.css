@@ -37,8 +37,8 @@ h2 {
 h3 {
 
   font-size: 24px;
-  text-align: center;
-  color: #1D3557;
+  text-align: left;
+  color: #016938;
 }
 
 h4 {
@@ -74,18 +74,19 @@ li {
 table {
   font-size: 17px;
   margin: auto;
+  margin-left: 0;
 }
 
 th {
-  text-align: left;
-  color: #1D3557;
-  border: solid #457B9D;
+  text-align: center;
+  color: #016938;
+  border: solid #016766;
   padding: 5px;
 }
 
 td {
-  text-align: left;
-  border: solid #457B9D;
+  text-align: center;
+  border: solid #016766;
   padding: 5px;
 }
 textarea{
