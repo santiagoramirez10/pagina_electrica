@@ -59,7 +59,7 @@ h6 {
   color: #1D3557 !important;
 }
 
-ul {
+ul,ol {
   margin: 0;
   padding: 0;
 }
@@ -89,7 +89,8 @@ td {
   border: solid #016766;
   padding: 5px;
 }
-textarea{
+
+textarea {
   width: 100%;
   background-color: #A8DADC;
   color: #1D3557;
@@ -104,7 +105,7 @@ textarea{
 }
 
 section {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 pre {
@@ -132,23 +133,24 @@ pre {
   margin: 0 5px;
 }
 
-label{
+label {
   font-size: 20px;
   font-weight: normal;
   text-align: left;
   color: #1D3557;
 }
-.assembly{
+
+.assembly {
   width: 100%;
-  }
+}
 
 
-  .project-title{
-    text-align: left;
-    font-weight: bold;
-  }
+.project-title {
+  text-align: left;
+  font-weight: bold;
+}
 
-.view-code{
+.view-code {
   width: 150px;
   background-color: #F1FAEE;
   border-radius: 20px;
@@ -162,12 +164,14 @@ label{
   font-weight: bold;
   color: #5C6BBE;
 }
-.view-code:hover{
+
+.view-code:hover {
   border: solid 2px #F1FAEE;
   background-color: #5C6BBE;
   color: #F1FAEE;
 }
-.view-code img{
+
+.view-code img {
   width: 25px;
   height: 25px;
 }
@@ -178,6 +182,7 @@ label{
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .column {
   flex: 1;
   min-width: 300px;
