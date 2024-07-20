@@ -10,6 +10,8 @@ body {
 a {
   text-decoration: none;
   color: #016938;
+  margin: 0;
+  padding: 0;
 }
 
 p {
