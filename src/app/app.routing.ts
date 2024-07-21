@@ -11,6 +11,8 @@ import { IntroductionCourseComponent } from './classes/computer/introduction-cou
 import { IntroductionPythonComponent } from './classes/computer/introduction-python/introduction-python.component';
 import { OperatorsVariablesComponent } from './classes/computer/operators-variables/operators-variables.component';
 
+//Paginas Computacion
+import { IntroductionCourseComputingComponent } from './classes/computing/introduction-course-computing/introduction-course-computing.component';
 
 const appRoutes = [ { path: "", component: HomeComponent },
   { path: "inicio", component: HomeComponent },
@@ -22,6 +24,8 @@ const appRoutes = [ { path: "", component: HomeComponent },
   {path: "informatica/00-introduccion-curso", component: IntroductionCourseComponent},
   {path: "informatica/01-introduccion-python", component: IntroductionPythonComponent},
   {path: "informatica/01-operadores-variables", component: OperatorsVariablesComponent},
+  //Paginas Computacion
+  {path: "computacion-numerica/00-introduccion-curso", component: IntroductionCourseComputingComponent},
 ];
 
 export const routing = RouterModule.forRoot(appRoutes, { scrollPositionRestoration: 'top' });

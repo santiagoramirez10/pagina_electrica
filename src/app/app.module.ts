@@ -14,6 +14,7 @@ import { ComputerComponent } from './pages/computer/computer.component';
 import { IntroductionCourseComponent } from './classes/computer/introduction-course/introduction-course.component';
 import { IntroductionPythonComponent } from './classes/computer/introduction-python/introduction-python.component';
 import { OperatorsVariablesComponent } from './classes/computer/operators-variables/operators-variables.component';
+import { IntroductionCourseComputingComponent } from './classes/computing/introduction-course-computing/introduction-course-computing.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { OperatorsVariablesComponent } from './classes/computer/operators-variab
     ComputerComponent,
     IntroductionCourseComponent,
     IntroductionPythonComponent,
-    OperatorsVariablesComponent
+    OperatorsVariablesComponent,
+    IntroductionCourseComputingComponent
   ],
   imports: [
     BrowserModule, routing, FormsModule
